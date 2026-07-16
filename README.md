@@ -87,35 +87,44 @@ Compare multiple events to understand:
 ![Comparison](screenshots/comparison.png)
 
 ---
-
 # 🏗️ Project Structure
+
 dipac-event-analytics/
 
 │
-├── app.py
-│ Main Streamlit application
+├── app.py                         # Main Streamlit dashboard
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project documentation
+├── .gitignore                     # Ignore unnecessary files
 │
 ├── data/
-│ Raw event transaction datasets
+│   └── events/
+│       ├── jakarta_stalk_white_party/
+│       │   └── transactions.csv
+│       │
+│       ├── semarang_dentra_tnf/
+│       │   └── transactions.csv
+│       │
+│       └── semarang_midnight_cell/
+│           └── transactions.csv
 │
 ├── utils/
-│ ├── analytics.py
-│ ├── forecasting.py
-│ └── pdf_report.py
-│
-├── pages/
-│ Streamlit additional pages
+│   ├── __init__.py
+│   ├── analytics.py               # KPI calculation & menu analysis
+│   ├── event_comparison.py        # Multi-event comparison
+│   ├── forecasting.py             # Revenue forecasting
+│   └── pdf_report.py              # Executive PDF generator
 │
 ├── screenshots/
-│ Dashboard visualization
+│   ├── dashboard.png
+│   ├── executive-report.png
+│   ├── comparison.png
+│   └── menu-performance.png
 │
-├── docs/
-│ Sample executive report output
-│
-└── requirements.txt
-
-
-
+└── docs/
+    ├── Dentra_TNF_Report.pdf
+    ├── Midnight_In_Cell_Report.pdf
+    └── White_Party_Report.pdf
 
 ---
 
