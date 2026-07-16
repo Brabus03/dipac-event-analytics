@@ -131,21 +131,42 @@ dipac-event-analytics/
 
 ---
 
-# ⚙️ Installation
+## 📈 Business Objective
+
+Project ini bertujuan mengubah data transaksi event menjadi insight bisnis yang dapat digunakan untuk:
+
+- Mengevaluasi performa event
+- Mengidentifikasi produk dengan kontribusi terbesar
+- Mengoptimalkan strategi penjualan
+- Mendukung pengambilan keputusan berbasis data
+
+---
+
+## ⚙️ Installation
+
+### Requirements
+
+- Python 3.10+
+- pip
+
+### Setup
 
 Clone repository:
 
 ```bash
 git clone https://github.com/Brabus03/dipac-event-analytics.git
 
-📈 Business Objective
+cd dipac-event-analytics
 
-Project ini bertujuan mengubah data transaksi event menjadi insight bisnis yang dapat digunakan untuk:
+pip install -r requirements.txt
+```
 
-Mengevaluasi performa event
-Mengidentifikasi produk dengan kontribusi terbesar
-Mengoptimalkan strategi penjualan
-Mendukung pengambilan keputusan berbasis data
+Run dashboard:
+
+```bash
+streamlit run app.py
+```
+
 📂 Sample Reports
 
 Contoh executive report tersedia pada folder:
@@ -158,4 +179,7 @@ Brabus03
 
 GitHub:
 https://github.com/Brabus03
+
+```
+
 ```
