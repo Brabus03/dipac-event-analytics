@@ -1,4 +1,14 @@
 # 📊 DIPAC Event Intelligence Dashboard
+Business Intelligence dashboard for analyzing event sales performance, customer spending behavior, collective revenue contribution, and automated executive reporting.
+
+python
+streamlit
+business-intelligence
+data-analytics
+pandas
+plotly
+dashboard
+data-visualization
 
 ![Dashboard Preview](screenshots/dashboard.png)
 
